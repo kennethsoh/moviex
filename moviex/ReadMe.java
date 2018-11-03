@@ -26,6 +26,9 @@ public class ReadMe {
     (although is it perfectly fine to do so, I don't confuse myself)
 
      */
+    
+    // Note: This project was part of an academic project submitted in August 2018. 
+    // The app is not fully completed and may contain parts of imcomplete code and/or comments that do not make sense.
 
 
 }
