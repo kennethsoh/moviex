@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".Activities.ReadReviewActivity">
+
+    <include
+        android:id="@+id/topbar_movie_reviews"
+        layout="@layout/topbar_movie_reviews" />
+
+    <TextView
+        android:id="@+id/fakeReviewTitle1"
+        android:layout_width="333dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp"
+        android:text="@string/fakeReviewTitle1"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/fakeReview1"
+        android:layout_width="333dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="@string/fakeReview1"
+        android:textColor="@color/white"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/fakeReviewTitle2"
+        android:layout_width="333dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="203dp"
+        android:text="@string/fakeReviewTitle2"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/fakeReview2"
+        android:layout_width="333dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:text="@string/fakeReview2"
+        android:textColor="@color/white"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/fakeReviewTitle3"
+        android:layout_width="333dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="293dp"
+        android:text="@string/fakeReviewTitle3"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/fakeReview3"
+        android:layout_width="333dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:text="@string/fakeReview3"
+        android:textColor="@color/white"
+        android:textStyle="italic"/>
+
+
+    <TextView
+        android:id="@+id/reviewMovieTitleTextView"
+        android:layout_width="333dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="385dp"
+        android:text="@string/reviewMovieText"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/reviewTextView"
+        android:layout_width="333dp"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:text=" "
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"/>
+
+
+
+
+</RelativeLayout>

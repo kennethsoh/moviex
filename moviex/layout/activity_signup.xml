@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".Activities.SignupActivity">
+
+    <include
+        layout="@layout/topbar_launch_activity"/>
+
+    <FrameLayout
+        android:id="@+id/signup_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textViewSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:gravity="center"
+        android:text="@string/Signup"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/editsignupEmailField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp"
+        android:ems="10"
+        android:hint="@string/EmailAddress"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#FFFFFF" />
+
+
+    <EditText
+        android:id="@+id/editsignupPasswordField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="222dp"
+        android:ems="10"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:textAlignment="textStart"
+        android:textColorHint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="118dp"
+        android:onClick="openPrivacyPolicy"
+        android:text="@string/PrivacyPolicy"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="222dp"
+        android:onClick="openLoginActivity"
+        android:text="@string/GotAccount"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/continueSignupbutton"
+        android:text="@string/continueLogin"
+        android:onClick="createUserWithEmailAndPassword"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="149dp"/>
+
+
+
+
+</RelativeLayout>

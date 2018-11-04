@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Moviex</string>
+
+    // String Resource for topbar
+    <string name="MOVIEX">MOVIEX</string>
+
+    <string name="LoginOrSignup">Login / Sign Up</string>
+    <string name="LoginAnonymously">Continue as guest</string>
+    <string name="PrivacyPolicy">Privacy Policy</string>
+    <string name="PrivacyPolicyOverview">Your personal data is collected by this application for the following purposes and in using the following services:</string>
+
+    <string name="authentication">Authentication</string>
+    <string name="authenticationExplained">Google Firebase Authentication uses your email address and password to securely identify you and save your data.</string>
+    <string name="Analytics">Analytics</string>
+    <string name="analyticsExplained">Google Firebase Analytics captures your activity to provide the developer with usage insights so as to improve the app experience.</string>
+
+
+    <string name="EmailAddress">Email Address</string>
+    <string name="Password">Password</string>
+    <string name="Login">Log In</string>
+    <string name="Signup">Sign Up</string>
+    <string name="NoAccountSignUp">Don\'t have an account?</string>
+    <string name="GotAccount">I have an account</string>
+    <string name="continueLogin">Continue</string>
+
+    // String resources for bottomNavigationView
+    <string name="menu_home">Home</string>
+    <string name="menu_explore">Explore</string>
+    <string name="menu_reviews">Reviews</string>
+
+    // String resources for Home Activity
+    <string name="Explore">Explore</string>>
+    <string name="mostPopular">Most Popular</string>
+    <string name="topRated">Top Rated Movies</string>
+    <string name="upcomingMovies">Upcoming Movies</string>
+    <string name="searchHint">search Movie Titles</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="search_title">Search Movie Title</string>
+    <string name="GVtickets">Buy Tickets from Golden Village</string>
+    <string name="Shawtickets">Buy Tickets from Shaw Theatres</string>
+
+
+    //String resources for Movie Detail Activity
+    <string name="write_a_review">Write a review</string>
+    <string name="read_reviews">Read reviews</string>
+
+    //String resources for Profile Activity
+    <string name="profile">Profile</string>
+    <string name="guest">Guest</string>
+    <string name="signOut">Sign Out</string>
+    <string name="ChangePassword">Change Password</string>
+    <string name="warningChangePassword">Are you sure you want to change your password?</string>
+    <string name="PasswordChangeInstructions">Please key in new password and press the confirm button to change your password</string>
+    <string name="newPassword">New Password</string>
+    <string name="confirmPasswordChange">Confirm</string>
+
+    //String resources for Post Review Activity
+    <string name="MovieReviews">Movie Reviews</string>
+    <string name="movie_title_hint">Movie Title</string>
+    <string name="write_review_hint">Write your review here</string>
+    <string name="post_review">Post Review</string>
+
+    //String resources for Soundtracks
+    <string name="MovieSoundtracks">Movie Soundtracks</string>
+    <string name="soundtrackListTopbar">Soundtracks</string>
+    <string name="soundtrackPlayerTopbar">Selected Soundtrack</string>
+    <string name="Fallout">Mission Impossible: Fallout</string>
+    <string name="LorneBalfe">Lorne Balfe</string>
+    <string name="AlanSilvestri">Alan Silvestri</string>
+    <string name="JohnWilliams">John Williams</string>
+    <string name="JoeKraemer">Joe Kraemer</string>
+    <string name="Infinity">Avengers: Infinity War</string>
+    <string name="Dino">Jurassic World: Fallen Kingdom</string>
+    <string name="Rogue">Mission Impossible: Rogue Nation</string>
+    <string name="Previous">Previous</string>
+    <string name="Play">Play</string>
+    <string name="Next">Next</string>
+    <string name="autoPlay">Auto Play</string>
+    <string name="autoPlayOn">Auto Play On</string>
+    <string name="autoPlayOff">Auto Play Off</string>
+
+    <string name="empty"> </string>
+
+    <string name="fakeReviewTitle1"> <u>Avengers Infinity War</u> </string>
+    <string name="fakeReview1">Infinity War was a good movie though I was shocked at the ending scenes.</string>
+    <string name="fakeReviewTitle2"> <u>Mission Impossible Fallout</u></string>
+    <string name="fakeReview2">Mission Impossible Fallout is full of action but shallow in storyline.</string>
+    <string name="fakeReviewTitle3"> <u>Ant Man and Wasp</u></string>
+    <string name="fakeReview3">Ant man. What a movie. Totally worth my money. Can\'t wait for the next movie!</string>
+    <string name="reviewMovieText"><u> </u></string>
+
+</resources>

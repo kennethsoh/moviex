@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SoundtrackListActivity">
+
+    <include
+        android:id="@+id/topbar_soundtrack_list"
+        layout="@layout/topbar_soundtrack_list"/>
+
+
+    <ImageButton
+        android:id="@+id/S1001"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="70dp"
+        android:adjustViewBounds="true"
+        android:onClick="handlerSelection"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mission_impossible" />
+
+    <ImageButton
+        android:id="@+id/S1002"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/S1001"
+        android:layout_below="@+id/S1001"
+        android:adjustViewBounds="true"
+        android:onClick="handlerSelection"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/infinity_war" />
+
+    <ImageButton
+        android:id="@+id/S1003"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/S1001"
+        android:layout_below="@+id/S1002"
+        android:adjustViewBounds="true"
+        android:onClick="handlerSelection"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fallen_kingdom" />
+
+    <ImageButton
+        android:id="@+id/S1004"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/S1001"
+        android:layout_below="@+id/S1003"
+        android:adjustViewBounds="true"
+        android:onClick="handlerSelection"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rogue_nation_pic" />
+
+    <TextView
+        android:id="@+id/txtTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/S1001"
+        android:layout_marginEnd="16dp"
+        android:text="@string/Fallout"
+        android:textSize="18sp"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/txtArtist1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtTitle1"
+        android:layout_marginTop="119dp"
+        android:text="@string/LorneBalfe"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtTitle1"
+        android:layout_below="@+id/S1001"
+        android:text="@string/Infinity"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtArtist2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtTitle1"
+        android:layout_marginTop="237dp"
+        android:text="@string/AlanSilvestri"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtTitle1"
+        android:layout_below="@+id/S1002"
+        android:text="@string/Dino"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtArtist3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtTitle1"
+        android:layout_marginBottom="193dp"
+        android:text="@string/JohnWilliams"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtTitle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtTitle1"
+        android:layout_below="@+id/S1003"
+        android:text="@string/Rogue"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textArtist4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtTitle1"
+        android:layout_marginBottom="71dp"
+        android:text="@string/JoeKraemer"
+        android:textSize="12sp" />
+
+
+
+
+
+</RelativeLayout>

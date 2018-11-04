@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".Activities.PostReviewActivity">
+
+    <include
+        android:id="@+id/topbar_movie_reviews"
+        layout="@layout/topbar_movie_reviews"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="589dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".Activities.PostReviewActivity">
+
+            <EditText
+                android:id="@+id/reviewMovieTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:hint="@string/movie_title_hint"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/reviewText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/write_review_hint"
+                android:textColorHint="@color/white" />
+
+            <Button
+                android:id="@+id/postReviewButton"
+                android:text="@string/post_review"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="35dp"
+               />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

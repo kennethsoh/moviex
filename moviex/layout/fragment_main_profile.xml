@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <include
+        android:id="@+id/topbar_profile_activity"
+        layout="@layout/topbar_profile_activity" />
+
+
+    <TextView
+        android:id="@+id/ProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="135dp"
+        android:text="@string/guest"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+
+    <Button
+        android:id="@+id/signoutButton"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp"
+        android:onClick="signOut"
+        android:text="@string/signOut" />
+
+    <Button
+        android:id="@+id/changePasswordButton"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:onClick="openChangePasswordActivity"
+        android:text="@string/ChangePassword" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:text="Welcome"
+        android:textSize="32sp"/>
+
+</RelativeLayout>

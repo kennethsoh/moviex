@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorBackground"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".Activities.SearchActivity">
+
+    <include
+        android:id="@+id/topbar_profile_activity"
+        layout="@layout/topbar_profile_activity"/>
+
+    <EditText
+        android:id="@+id/searchView"
+        android:hint="@string/search_title"
+        android:layout_marginStart="5sp"
+        android:layout_marginEnd="35sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topbar_profile_activity"/>
+
+    <ImageButton
+        android:id="@+id/search_button"
+        android:src="@drawable/ic_search_black_24dp"
+        android:background="@color/colorBackground"
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="66dp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/searchRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchView"/>
+
+</RelativeLayout>
+
+

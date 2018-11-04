@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorTopBar"
+    android:elevation="5dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:text="Top Rated Movies"
+        android:textSize="25sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@color/colorTopBar"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+        android:onClick="openExploreFragment"/>
+
+
+
+</android.support.v7.widget.Toolbar>

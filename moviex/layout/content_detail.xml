@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sg.edu.tp.moviex.Activities.MovieDetailActivity"
+
+    tools:showIn="@layout/activity_movie_detail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:showIn="@layout/activity_movie_detail">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <view
+            android:id="@+id/YtView"
+            class="com.google.android.youtube.player.YouTubePlayerView"
+            android:layout_width="330dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/layout_margin_top"/>
+
+        <TextView
+            android:id="@+id/movietitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_layout"
+            android:layout_marginTop="@dimen/layout_margin_top"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="16dp"
+            tools:layout_constraintTop_creator ="1"
+            tools:layout_constraintLeft_creator ="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userratingtitle"
+            android:padding="@dimen/padding_layout"
+            android:text="Ratings"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/title"
+            android:layout_marginStart="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_constraintTop_creator="1" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userrating"
+            android:padding="@dimen/padding_layout"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/title"
+            android:layout_marginStart="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_constraintTop_creator="1" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/releasedate"
+            android:padding="@dimen/padding_layout"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/userrating"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/plotsynopsis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_layout"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/releasedate"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/thumbnailUrl"
+            app:layout_constraintTop_toBottomOf="@+id/plotsynopsis"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:visibility="invisible"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:scrollbars="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/trailer"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
